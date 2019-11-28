@@ -27,16 +27,16 @@ set -o pipefail
 
 # API key, see https://www.cloudflare.com/a/account/my-account,
 # incorrect api-key results in E_UNAUTH error
-CFKEY=
+CFKEY=66029f13b5889071f64d946dbb61628f90f1c
 
 # Username, eg: user@example.com
-CFUSER=
+CFUSER=lonefa@qq.com
 
 # Zone name, eg: example.com
-CFZONE_NAME=
+CFZONE_NAME=hostloc.design
 
 # Hostname to update, eg: homeserver.example.com
-CFRECORD_NAME=
+CFRECORD_NAME=hkt.hostloc.design
 
 # Cloudflare TTL for record, between 120 and 86400 seconds
 CFTTL=120
